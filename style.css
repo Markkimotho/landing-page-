@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+img {
+  width: 340px;
+}
+
+.header .container img {
+  max-width: 1100px;
+}
+
+.navbar {
+  background: #1f2937;
+  height: 50px;
+  color: aliceblue;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.container ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.container ul li {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: lightblue;
+  text-shadow: 0 0 10px #00ffef;  /* text shadow adds a "glowing" touch to text*/
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header {
+  background: #1f2937;
+  color: #000000;
+  min-height: 250px;
+}
+
+.box p{
+  text-align: center;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .title h1 { 
+  text-shadow: 0 0 10px #00ffef;  
+}
+.header .container .title p {
+ 
+  text-shadow: 0 0 10px #00ffef;  
+}
+
+img {
+  margin: 10px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  min-height: 300px;
+}
+
+.box {
+  flex: 1;
+  background: #ffffff;
+  color: black;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+}
+
+
+
+.rand .container {
+  min-height: 300px;
+ 
+  max-width: 10000px;
+  background: #e5e7eb;
+  padding-top: 50px;
+
+  align-items: center;
+
+  font-weight: light;
+  color: #1f2937;
+}
+.rand .container p {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+}
+
+.contacts .container {
+  min-height: 200px;
+  background: #011230;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  max-width: 1100px;
+  margin: 50px auto 50px auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-shadow: 0 0 10px #00ffef;
+}
+
+.contacts {
+  align-content: center;
+}
+
+span{
+  font-weight: bold;
+}
+
+button {
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  size-adjust: 20px;
+  padding: 10px;
+  text-shadow: ;
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+  
+}
+
+footer {
+  background: #1f2937;
+  text-align: center;
+  font-size: medium;
+  color: #fff;
+  max-width: auto;
+  margin:0 auto;
+  padding: 0 30px;
+}
